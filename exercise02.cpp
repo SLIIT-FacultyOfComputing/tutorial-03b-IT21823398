@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int volume(int height, int width, int length);
 
 int main() {
@@ -31,3 +30,7 @@ int main() {
 }
 
 // Implement the Volume() function here
+int volume(int height , int width , int length){
+  return height * width * length;
+  
+}
