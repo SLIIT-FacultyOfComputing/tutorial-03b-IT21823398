@@ -27,8 +27,5 @@ void input(int &length , int &width){
 
   cout << "Enter Width : ";
   cin >> width;
-
-  cout << "Length : " << length
-    << ", Width : " << width << endl;
   
 }
